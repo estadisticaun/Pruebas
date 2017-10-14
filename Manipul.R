@@ -8,6 +8,7 @@ iris %>% select(contains("tal."))
 
 # Cómo crear un filtro
 
-iris %>% filter(Species %in% c("setosa"))
+iris %>% filter(Species %in% c("setosa", "versicolor"))
+
 
 
