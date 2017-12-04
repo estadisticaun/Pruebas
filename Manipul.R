@@ -8,7 +8,12 @@ iris %>% select(contains("tal."))
 
 # Cómo crear un filtro
 
-iris %>% filter(Species %in% c("setosa", "versicolor"))
+iris %>% filter(Species %in% c("virginica", "versicolor"))
+
+# Cómo seleccionar variables
+
+iris %>% select(c(Sepal.Length, Petal.Width:Species))
+
 
 
 
