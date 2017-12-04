@@ -14,6 +14,9 @@ iris %>% filter(Species %in% c("virginica", "versicolor"))
 
 iris %>% select(c(Sepal.Length, Petal.Width:Species))
 
+# Cómo seleccionar variables 2
+
+iris %>% select(starts_with("Sepal."))
 
 
 
